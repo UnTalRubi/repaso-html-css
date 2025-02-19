@@ -13,12 +13,29 @@
         <form id="formBook">
             <label for="title">Título:</label>
             <input type="text" id="title" name="title">
+
             <label for="author">Autor:</label>
             <input type="text" id="author" name="author">
+
             <label for="category">Categoria:</label>
-            <input type="text" id="category" name="stock">
+            <select id="category" name="category">
+                <option value="1">Terror</option>
+                <option value="2">Ciencia Ficción</option>
+                <option value="3">Drama</option>
+                <option value="4">Aventura</option>
+                <option value="5">Crimen</option>
+                <option value="6">Historia</option>
+                <option value="7">Romance</option>
+                <option value="8">Suspense</option>
+            </select>
+
             <label for="dateStart">Fecha de inicio:</label>
             <input type="date" id="dateStart" name="dateStart">
+
+            <label for="marcas">Marcas:</label>
+            <label><input type="checkbox" id="read" name="read" value="1"> Leído</label>
+            <label><input type="checkbox" id="favourite" name="favourite" value="1"> Favorito</label>
+
             <input type="submit" value="Enviar">
         </form>
     </div>
