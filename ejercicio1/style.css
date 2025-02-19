@@ -1,0 +1,55 @@
+#formContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+#formBook {
+    width: 30%;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+}
+
+label {
+    margin: 0.5em 0em;
+    font-size: 1.5em;
+}
+
+input[type=text] {
+    font-size: 1.2em;
+    height: 1.5em;
+}
+
+.dropdown {
+    font-size: 1em;
+    height: 2em;
+    width: 30%;
+}
+
+input[type=checkbox] {
+    height: 1.5em;
+    width: 1.5em;
+}
+
+input[type=submit] {
+    height: 2em;
+    width: 30%;
+    font-size: 1.5em;
+    margin: 1em 0em;
+    align-self: center;
+    background-color: lightblue;
+}
+
+input[type=submit]:hover {
+    background-color: lightskyblue;
+}
+
+.title {
+    font-weight: bold;
+}

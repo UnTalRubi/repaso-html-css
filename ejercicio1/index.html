@@ -11,14 +11,14 @@
 <body>
     <div id="formContainer">
         <form id="formBook">
-            <label for="title">Título:</label>
-            <input type="text" id="title" name="title">
+            <label for="title" class="title">Título:</label>
+            <input type="text" id="titleBox" name="title">
 
-            <label for="author">Autor:</label>
-            <input type="text" id="author" name="author">
+            <label for="author" class="title">Autor:</label>
+            <input type="text" class="authorBox" name="author">
 
-            <label for="category">Categoria:</label>
-            <select id="category" name="category">
+            <label for="category" class="title">Categoria:</label>
+            <select class="dropdown" name="category">
                 <option value="1">Terror</option>
                 <option value="2">Ciencia Ficción</option>
                 <option value="3">Drama</option>
@@ -29,12 +29,12 @@
                 <option value="8">Suspense</option>
             </select>
 
-            <label for="dateStart">Fecha de inicio:</label>
-            <input type="date" id="dateStart" name="dateStart">
+            <label for="dateStart" class="title">Fecha de inicio:</label>
+            <input type="date" class="dropdown" name="dateStart">
 
-            <label for="marcas">Marcas:</label>
-            <label><input type="checkbox" id="read" name="read" value="1"> Leído</label>
-            <label><input type="checkbox" id="favourite" name="favourite" value="1"> Favorito</label>
+            <label for="marcas" class="title">Marcas:</label>
+            <label><input type="checkbox" id="readCheck" name="read" value="1"> Leído</label>
+            <label><input type="checkbox" class="favCheck" name="favourite" value="1"> Favorito</label>
 
             <input type="submit" value="Enviar">
         </form>
