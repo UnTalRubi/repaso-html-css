@@ -1,0 +1,26 @@
+body {
+    margin: 0px;
+}
+
+#botones {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+}
+
+button {
+    width: 100vw;
+    height: 100vh;
+}
+
+button:focus {
+    background-color: blue;
+}
+
+button:focus+button {
+    background: yellow;
+}
+
+button:focus+button~button {
+    background: red;
+}
