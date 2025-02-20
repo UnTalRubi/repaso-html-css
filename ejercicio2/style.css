@@ -1,0 +1,34 @@
+#tableContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+#myTable {
+    border: 3px solid black;
+    width: 40%;
+    min-width: 500px;
+    align-self: center;
+    border-collapse: collapse;
+}
+
+#tableTitle {
+    border-bottom: 3px solid black;
+    padding: 10px;
+    background-color: rgb(54, 54, 54);
+    color: white;
+}
+
+td {
+    padding: 5px;
+    text-align: center;
+}
+
+.fileA {
+    background-color: grey;
+}
+
+.fileB {
+    background-color: lightgrey;
+}
