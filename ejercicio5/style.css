@@ -1,23 +1,25 @@
 #carrouselContainer {
     width: 100%;
-    height: 40vh;
+    height: 600px;
     display: flex;
-    background-color: aqua;
     justify-content: center;
 }
 
 #nextButton {
-
     right: 0;
 }
 
 .button {
     height: 100%;
     width: 10%;
-    background: rgba(0, 0, 0, 0.150);
+    background: rgba(0, 0, 0, 0);
     position: absolute;
     justify-content: left;
     align-items: center;
+    font-size: xxx-large;
+    color: aliceblue;
+    border: none;
+    transition: background 0.3s;
 }
 
 .button:hover {
@@ -34,4 +36,14 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+#title {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 3em;
 }
